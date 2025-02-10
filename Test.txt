@@ -1,0 +1,13 @@
+
+тестируем запуск проекта
+
+
+
+uvicorn main:app --reload
+
+
+
+
+тестируем Api через Postman     curl
+
+curl -X POST "http://localhost:8000/ask?question=Как написать SQL-запрос с JOIN?"
